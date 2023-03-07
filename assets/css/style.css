@@ -1,0 +1,473 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora-VariableFont_wght.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* ========================
+        Header
+======================== */
+header {
+  background-color: black;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+header img {
+  width: 200px;
+  height: 0px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(90deg);
+  margin-bottom: 30vh;
+}
+header p {
+  color: white;
+  font-size: 1.6rem;
+  font-family: "WorkSans";
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+header h1 {
+  color: white;
+  font-size: 8.8rem;
+  font-family: "Lora";
+  line-height: 70px;
+}
+header h1:nth-of-type(2) {
+  color: black;
+  text-shadow: 0 0 2px white;
+}
+header article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15vh;
+  padding-bottom: 40vh;
+}
+header article img {
+  color: white;
+  width: 5%;
+  height: 5vh;
+  transform: rotate(0deg);
+  margin-bottom: 0;
+}
+header article input {
+  width: 10%;
+  height: 6vh;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+header article input:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ========================
+        Main
+======================== */
+main .section1 {
+  background-color: black;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url("../img/map.svg");
+  background-position: 100% 80%;
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+main .section1 h2 {
+  font-size: 8.8rem;
+  color: white;
+  width: 77%;
+  font-family: "Lora";
+  padding-bottom: 20vh;
+}
+main .section1 div {
+  color: white;
+}
+main .section1 div p {
+  font-family: "WorkSans";
+  font-size: 1.6rem;
+  padding-bottom: 2vh;
+}
+main .section1 div h3 {
+  font-family: "Lora";
+  font-size: 6.4rem;
+  padding-bottom: 15vh;
+}
+main .section2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80vh;
+}
+main .section2 h2 {
+  font-size: 8.8rem;
+  font-family: "Lora";
+  width: 36%;
+}
+main .section2 p {
+  font-family: "WorkSans";
+  font-size: 1.6rem;
+  width: 36%;
+  line-height: 5vh;
+}
+main .section2 p:nth-of-type(2) {
+  padding-top: 100vh;
+  padding-bottom: 40vh;
+}
+main .section2 .action1 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  right: 160px;
+  top: -60px;
+}
+main .section2 .action2 {
+  width: 240px;
+  height: 160px;
+  position: absolute;
+  left: 40px;
+  top: 470px;
+}
+main .section2 .action3 {
+  width: 240px;
+  height: 160px;
+  position: absolute;
+  right: 0;
+  top: 880px;
+}
+main .section2 .action4 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 1100px;
+  left: 300px;
+}
+main .section2 .action5 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 1200px;
+  right: 300px;
+}
+main .section2 .action6 {
+  width: 240px;
+  height: 160px;
+  position: absolute;
+  left: 0;
+  bottom: 450px;
+}
+main .section2 .action7 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  right: 240px;
+  bottom: -60px;
+}
+main .section3 {
+  background-color: black;
+  color: white;
+  padding: 30vh 10% 0 10%;
+  height: 170vh;
+}
+main .section3 article {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30%;
+}
+main .section3 div:nth-of-type(1) p {
+  font-family: "WorkSans";
+  font-size: 1.6rem;
+}
+main .section3 div:nth-of-type(1) h2 {
+  font-family: "Lora";
+  font-size: 8.8rem;
+  line-height: 10vh;
+  padding-top: 5vh;
+}
+main .section3 div:nth-of-type(2) p:nth-of-type(1) {
+  font-family: "Lora";
+  font-size: 3.2rem;
+  width: 90%;
+  line-height: 5vh;
+}
+main .section3 div:nth-of-type(2) p:nth-of-type(2) {
+  font-family: "WorkSans";
+  font-size: 1.6rem;
+  width: 70%;
+  padding-top: 5vh;
+  margin-bottom: 7vh;
+}
+main .section3 img:nth-of-type(1) {
+  width: 703px;
+  height: 703px;
+  transform: translateX(50px);
+}
+main .section3 img:nth-of-type(2) {
+  width: 358px;
+  height: 463px;
+  transform: translateX(-20px);
+  transform: translateY(-50px);
+}
+main .circle {
+  position: absolute;
+  width: 100%;
+}
+main .circle img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 1150px;
+  bottom: 120px;
+  animation: rotating 6s linear infinite;
+}
+@keyframes rotating {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 1turn;
+  }
+}
+main .section4 {
+  padding-top: 30vh;
+  padding: 30vh 10% 10vh 10%;
+}
+main .section4 article {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20%;
+}
+main .section4 div:nth-of-type(1) p {
+  font-family: "WorkSans";
+  font-size: 1.6rem;
+}
+main .section4 div:nth-of-type(1) h2 {
+  font-family: "Lora";
+  font-size: 8.8rem;
+  line-height: 10vh;
+  padding-top: 5vh;
+}
+main .section4 div:nth-of-type(2) p:nth-of-type(1) {
+  font-family: "Lora";
+  font-size: 3.2rem;
+  width: 90%;
+  line-height: 5vh;
+}
+main .section4 div:nth-of-type(2) p:nth-of-type(2) {
+  font-family: "WorkSans";
+  font-size: 1.6rem;
+  width: 70%;
+  padding-top: 5vh;
+  margin-bottom: 10vh;
+}
+main .section4 img:nth-of-type(1) {
+  width: 30%;
+  height: 70vh;
+  transform: translateX(60px) translateY(-110px);
+}
+main .section4 img:nth-of-type(2) {
+  width: 60%;
+  height: 100vh;
+}
+
+/* ========================
+        Footer
+======================== */
+footer .section5 {
+  background-color: black;
+  color: white;
+  padding: 10vh 10% 8vh 10%;
+  position: relative;
+}
+footer .section5 div:nth-of-type(1) p:nth-of-type(1) {
+  font-size: 1.6rem;
+  font-family: "WorkSans";
+}
+footer .section5 div:nth-of-type(1) p:nth-of-type(2) {
+  font-size: 3.2rem;
+  font-family: "Lora";
+  padding: 8vh 0 5vh 0;
+  width: 45%;
+}
+footer .section5 div:nth-of-type(1) input {
+  width: 10%;
+  height: 6vh;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  margin-bottom: 8vh;
+}
+footer .section5 div:nth-of-type(1) input:hover {
+  background-color: white;
+  color: black;
+}
+footer .section5 article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .section5 article div:nth-of-type(1) a img {
+  height: 6vh;
+  width: 15%;
+  padding-bottom: 2vh;
+}
+footer .section5 article div:nth-of-type(1) a:nth-of-type(2) img {
+  margin: 0 3%;
+}
+footer .section5 article div:nth-of-type(1) p:nth-of-type(2) {
+  font-size: 1.6rem;
+  padding-top: 5vh;
+}
+footer .section5 article div:nth-of-type(2) img {
+  height: 10vh;
+  padding-right: 10px;
+}
+footer .section5 article div:nth-of-type(2) .redcross {
+  height: 8vh;
+}
+footer .banner {
+  position: relative;
+}
+footer .banner div {
+  font-size: 8.8rem;
+  font-family: "Lora";
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  position: absolute;
+  transform-origin: center;
+  transform: rotateZ(45deg);
+  top: -470px;
+  right: -400px;
+}
+footer .banner div p {
+  animation: banner 8s infinite;
+}
+footer .banner div p span {
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+@keyframes banner {
+  0% {
+    transform: translateX(-20%);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 7px;
+  }
+  main .section1 {
+    background-size: 70%;
+    background-position: 70% 95%;
+  }
+  main .section1 h2 {
+    width: 100%;
+  }
+  main .section2 {
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-top: 30vh;
+  }
+  main .section2 p:nth-of-type(2) {
+    padding-top: 30vh;
+    padding-bottom: 25vh;
+  }
+  main .section2 .action1 {
+    top: 20px;
+    left: 20px;
+  }
+  main .section2 .action2 {
+    top: 250px;
+    left: 320px;
+  }
+  main .section2 .action3 {
+    top: 500px;
+    left: 320px;
+  }
+  main .section2 .action4 {
+    top: 700px;
+    left: 20px;
+  }
+  main .section2 .action5 {
+    top: 920px;
+    right: 20px;
+  }
+  main .section2 .action6 {
+    top: 1150px;
+    left: 320px;
+  }
+  main .section2 .action7 {
+    bottom: 15px;
+  }
+  main .section3 {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    height: 135vh;
+  }
+  main .section3 article {
+    flex-direction: column;
+  }
+  main .section3 div:nth-of-type(2) p:nth-of-type(1) {
+    padding-top: 2vh;
+  }
+  main .section3 img:nth-of-type(1) {
+    width: 50%;
+    height: 50vh;
+  }
+  main .section3 img:nth-of-type(2) {
+    width: 30%;
+    height: 35vh;
+  }
+  main .circle img {
+    left: 350px;
+  }
+  main .section4 {
+    padding-top: 10vh;
+  }
+  main .section4 article {
+    flex-direction: column;
+  }
+  main .section4 div:nth-of-type(2) {
+    padding-top: 5vh;
+  }
+  main .section4 img:nth-of-type(1) {
+    width: 40%;
+    height: 40vh;
+    transform: translateY(-30px) translateX(40px);
+  }
+  main .section4 img:nth-of-type(2) {
+    width: 50%;
+    height: 50vh;
+    transform: translateY(0px);
+  }
+  footer .banner div {
+    top: -550px;
+    left: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
